@@ -54,27 +54,36 @@ header {
 	transition: opacity 400ms;
 }
 
-.sectionHeader {
-	color: white;
-    font-size: 2rem;
-    text-align: center;
-}
-
 .section {
 	height:700px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .sectionTopShadow {
 	box-shadow: 0px -.5px .5px black;
 }
 .bckcolor2 {
-	background-color: #95a5a6;
+	background-color: #2ecc71;
 
 }
 
 .bckcolor1 {
-	background-color: #7f8c8d;
+	background-color: #27ae60;
 }
 
 a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+    font-size: 2rem;
+    text-align: center;	
+    margin-top: 0px;
+}
+
+i {
+	color:white;
 }
