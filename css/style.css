@@ -54,8 +54,14 @@ header {
 	transition: opacity 400ms;
 }
 
+.sectionHeader {
+	color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .section {
-	height:500px;
+	height:700px;
 }
 
 .sectionTopShadow {
