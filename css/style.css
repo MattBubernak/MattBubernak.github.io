@@ -24,23 +24,23 @@ header {
 	font-family: 'Roboto Condensed', sans-serif;
 	border-top: thin solid rgba(255,255,255,0.25);
     border-bottom: thin solid rgba(255,255,255,0.25);
-    font-size: 4rem;
+    font-size: 6rem;
     text-shadow: 1px 1px 10px #333;	
     color:white;
     width:60%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 #header-sub-text
 {
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 #header-nav {
 	padding-bottom: 100px;
 }
 #header-nav a {
-	font-size: 1.2rem;
+	font-size: 2rem;
 	padding-left: 30px;
 	padding-right: 30px;
 	text-decoration: none;
@@ -79,11 +79,40 @@ a {
 h1 {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;	
     margin-top: 0px;
+    text-shadow: 1px 1px 10px #333;	
+
 }
 
 i {
 	color:white;
+}
+
+.btnFade {
+	opacity: .75;
+}
+
+.btnFade:hover {
+	opacity: 1;
+	transition: opacity 400ms;
+}
+
+p {
+	color:white;
+	margin-top: 0px;
+	font-size: 1.5rem;
+}
+
+#Footer {
+}
+
+button {
+     background:none;
+     border:none; 
+     padding:0;
+     font: inherit;
+     cursor: pointer;
+     outline-color: transparent;
 }

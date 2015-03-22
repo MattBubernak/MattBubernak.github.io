@@ -14,12 +14,15 @@
     <!-- Used for WOW.js -->
 	<script src="js/wow.min.js"></script>
     <link rel="stylesheet" href="css/animate.css">
-
-    <!-- custom css for the website -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 	<!-- fontAwesome stuff -->
 	<link rel="stylesheet" href="lib/font-awesome-4.3.0/css/font-awesome.min.css">
+
+	<!-- bootstrap -->
+ 	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- custom css for the website -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 
@@ -45,26 +48,67 @@
 
 
 <div id="About" class="section bckcolor1 sectionTopShadow">
-<h1>About</h1>
+<h1 class="wow slideInUp">About</h1>
 
 </div>
 
 <div id="Resume" class="section bckcolor2">
-<h1>Resume</h1>
+<h1 class="wow slideInUp">Resume</h1>
 </div>
 
 <div id="Projects" class="section bckcolor1">
-<h1>Projects</h1>
-
+<h1 class="wow slideInUp">Projects</h1>
+    <div id="projectTitles" class="wow slideInDown">
+	    <button id="discGolf" class="apiCat"><p id="discGolfH">Disc Golf Scorecard</p></button>    
+	    <button id="workoutLog" class="apiCat"><p id="workoutLogH">Workout Log</p></button>
+	    <button id="14ers" class="apiCat"><p id="14ersH">14ers Checklist</p></button>
+	</div>    
+    <div id="projectContent" class="wow fadeIn">
+	     <div id="discGolfContent" class="apiTex">
+		     <div class="container">
+		       <div class="row">
+		        <div class="col-md-6">
+		          <img src="img/DiscGolfScorecard.png" width="400"></img>
+		        </div>
+		        <div class="col-md-6">
+		          <h2>
+		            Disc Golf Scorecard
+		          </h2>
+		          <p>
+		            XAML/C# application that acts as a scorecard for disc golf games. Add players, add courses, and create scorecards. Simple and intuitive UI. 
+		          </p>
+		        </div>
+		      </div>
+		      <div class="row">
+		        <div style="text-align:center;">
+		          <a href="http://www.windowsphone.com/en-us/store/app/14ers-checklist/f4c4cb1b-c8aa-4fcd-af4b-47b0b1e66320">
+		            <img src="img/462x120_WPS_Download_blk.png"  width="200"></img>
+		          </a>
+		        </div>
+		      </div>
+		    </div>
+		</div>
+	</div>
+    <div id="workoutLogContent" class="apiTex">
+        <h2>Introduction2</h1>
+    </div>    
+    <div id="14ersContent" class="apiTex">
+        <h2>Introduction2</h2>
+    </div>
 </div>
 
 <div id="Contact" class="section bckcolor2">
-<h1>Contact</h1>
+<h1 class="wow slideInUp">Contact</h1>
 
 </div>
 
 <div id="Footer" class="footer bckcolor1">
-<a href="#Head"><i class="fa fa-arrow-up fa-2x"></i></a>
+<div class="btnFade">
+<a href="#Head"><i class="btnFade fa fa-arrow-circle-up fa-2x wow bounceIn btnFade"></i></a>
+</div>
+
+<div>
+<p class= "wow fadeIn" >&copy Copyright Matt Bubernak 2015 </p>
 </div>
 
 </body>
