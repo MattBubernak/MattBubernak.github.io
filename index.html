@@ -58,27 +58,38 @@
 
 <div id="Projects" class="section bckcolor1">
 <h1 class="wow slideInUp">Projects</h1>
-    <div id="projectTitles" class="wow slideInDown">
-	    <button id="discGolf" class="apiCat"><p id="discGolfH">Disc Golf Scorecard</p></button>    
-	    <button id="workoutLog" class="apiCat"><p id="workoutLogH">Workout Log</p></button>
-	    <button id="14ers" class="apiCat"><p id="14ersH">14ers Checklist</p></button>
+    <div id="projectTitles" class="wow fadeIn">
+    	<ol class="breadcrumb">
+	    <li><button id="discGolf" class="apiCat"><p id="discGolfH">Disc Golf Scorecard</p></button></li> 
+	    <li><button id="tweetingPlants" class="apiCat"><p id="tweetingPlantsH">Tweeting Plants</p></button></li> 
+	    <li><button id="workoutLog" class="apiCat"><p id="workoutLogH">Workout Log</p></button></li>
+	    <li><button id="14ers" class="apiCat"><p id="14ersH">14ers Checklist</p></button></li>
+	    <li><button id="calcbot3d" class="apiCat"><p id="calcbot3dH">Calcbot Rising 3D</p></button></li>
+	    </ol>
 	</div>    
     <div id="projectContent" class="wow fadeIn">
 	     <div id="discGolfContent" class="apiTex">
 		     <div class="container">
 		       <div class="row">
 		        <div class="col-md-6">
-		          <img src="img/DiscGolfScorecard.png" width="400"></img>
+		          <img src="img/DiscGolfScorecard.png" width="400" class="screenshot-img"></img>
 		        </div>
 		        <div class="col-md-6">
-		          <h2>
-		            Disc Golf Scorecard
-		          </h2>
+		          <h3>Platform</h3>
 		          <p>
-		            XAML/C# application that acts as a scorecard for disc golf games. Add players, add courses, and create scorecards. Simple and intuitive UI. 
+		           	<img src="img/winphone.png" class="platform-img"></img>
+		          </p>
+		          <h3>Description</h3>
+		          <p>
+		            This app acts as a scorecard for disc golf games. Add players, add courses, and create scorecards. Simple and intuitive UI. This app utilizes C# for the backend, and XAML for frontend UI.
+		          </p>
+		          <h3>Technologies</h3>
+		          <p>
+		          	<img src="img/xaml.png" class="tech-img"></img><img src="img/csharp.png" class="tech-img"></img><img src="img/dotnet.png" class="tech-img"></img>
 		          </p>
 		        </div>
 		      </div>
+		      <br>
 		      <div class="row">
 		        <div style="text-align:center;">
 		          <a href="http://www.windowsphone.com/en-us/store/app/14ers-checklist/f4c4cb1b-c8aa-4fcd-af4b-47b0b1e66320">
@@ -88,12 +99,46 @@
 		      </div>
 		    </div>
 		</div>
-	</div>
-    <div id="workoutLogContent" class="apiTex">
-        <h2>Introduction2</h1>
-    </div>    
-    <div id="14ersContent" class="apiTex">
-        <h2>Introduction2</h2>
+	    <div id="tweetingPlantsContent" class="apiTex">
+	        <div class="container">
+		       <div class="row">
+		        <div class="col-md-6">
+		          <img src="img/tweetingplants.png" width="400"></img>
+		        </div>
+		        <div class="col-md-6">
+		          <h3>Platform</h3>
+		          <p>
+		           	<img src="img/web.png" class="platform-img"></img>
+		          </p>
+		          <h3>Description</h3>
+		          <p>
+		            This was my senior project capstone project. The concept behind the project is having a system natural language generation system to create "tweets" that sound like they are coming from plants in a greenhouse. The project involved creation of an API for data access, a website for visuals on greenhouse information, and a system for generating tweets. 
+		          </p>
+		          <h3>Technologies</h3>
+		          <p>
+		          	<img src="img/php.png" class="tech-img"></img><img src="img/python.png" class="tech-img"></img><img src="img/html.png" class="tech-img"></img><img src="img/css.png" class="tech-img"></img><img src="img/javascript.png" class="tech-img"></img>
+		          </p>
+		        </div>
+		      </div>
+		      <br>
+		      <div class="row">
+		        <div style="text-align:center;">
+		          <a href="http://www.ghproject.tk">
+		            <h3>View Webpage</h3>
+		          </a>
+		        </div>
+		      </div>
+		    </div>
+	    </div>
+	    <div id="workoutLogContent" class="apiTex">
+	    <h2>Introduction2</h1>
+	    </div>     
+	    <div id="14ersContent" class="apiTex">
+	        <h2>Introduction2</h2>
+	    </div>
+	    <div id="calcbot3dContent" class="apiTex">
+	        <h2>Calcbot Rising</h1>
+	    </div> 
     </div>
 </div>
 
@@ -103,15 +148,15 @@
 </div>
 
 <div id="Footer" class="footer bckcolor1">
-<div class="btnFade">
-<a href="#Head"><i class="btnFade fa fa-arrow-circle-up fa-2x wow bounceIn btnFade"></i></a>
-</div>
-
 <div>
 <p class= "wow fadeIn" >&copy Copyright Matt Bubernak 2015 </p>
 </div>
 
 </body>
 
+<!-- Back to top arrow -->
+<a href="#Head" class="back-to-top btnFade">
+<i class="fa fa-arrow-circle-up fa-3x"></i>
+</a>
 
 </html>
