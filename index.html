@@ -23,6 +23,7 @@
 
 	<!-- bootstrap -->
  	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
 
     <!-- custom css for the website -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -51,6 +52,7 @@
 
 <div id="About" class="section bckcolor1 sectionTopShadow">
 <h1 class="wow slideInUp">About Me</h1>
+<div class="subtle-section-text wow slideInUp">I am a dude and a half.</div>
 <div class="container">
 	<div class="row about-me-face wow slideInUp">
 		<img src="img/face2.jpg" class="img-circle" alt="Cinque Terre" width="300" height="300">
@@ -80,11 +82,88 @@
 </div>
 
 <div id="Resume" class="section bckcolor2">
-<h1 class="wow slideInUp">Resume</h1>
+	<h1 class="wow slideInUp">Resume</h1>
+	<div class="subtle-section-text wow slideInUp">You can get it as a <a href="files/resume.pdf">PDF</a> as well.</div>
+	<br>
+	<div class="container">
+		<div class="row wow slideInUp">
+			<div class="col-md-5 col-md-offset-1">
+				<h3 class="resume-header">Education</h3>
+
+				<div class="col-md-3">
+					<img src="img/cuboulderlogo.png" style="width:100%"></img>
+				</div>
+				<div class="col-md-9">
+					<p style="font-weight:bold">University of Colorado, Boulder</p>
+					<p>Concurrent MS/BS , Computer Science</p>
+					<p>GPA: 3.83</p>
+					<p>2011-2015</p>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<h3 class="resume-header">Work</h3>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/qualcomm.jpg" style="width:100%"></img>
+					</div>
+					<div class="col-md-9">
+						<p style="font-weight:bold">Qualcomm, Boulder</p>
+						<p>MCS Limits Management Team Intern</p>
+						<p>2015</p>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/cuboulderlogo.png" style="width:100%"></img>
+					</div>
+					<div class="col-md-9">
+						<p style="font-weight:bold">Univeristy of Colorado, Boulder</p>
+						<p>Teaching Assistant, Data Structures</p>
+						<p>2015</p>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/lockheed.png" style="width:100%"></img>
+					</div>
+					<div class="col-md-9">
+						<p style="font-weight:bold">Lockheed Martin, Boulder</p>
+						<p>Software Engineer Intern</p>
+						<p>2011-2014</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1">
+				<h3 class="resume-header">Skills</h3>
+				<div id="skill-list">
+					<ul class="horizlist">
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="C++"><img src="img/c++.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="C"><img src="img/c.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="C Sharp"><img src="img/csharp.png"></img></button></li>
+						<li><button type="button"  data-toggle="tooltip" data-placement="top" title="XAML"><img src="img/xaml.png"></img></button></li>
+						<li><button type="button"  data-toggle="tooltip" data-placement="top" title="Microsoft .Net"><img src="img/dotnet.png"></img></button></li>
+						<li><button type="button"  data-toggle="tooltip" data-placement="top" title="HTML"><img src="img/html.png"></img></button></li>
+						<li><button type="button"  data-toggle="tooltip" data-placement="top" title="CSS"><img src="img/css.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="Javascript"><img src="img/javascript.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="PHP"><img src="img/php.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="Python"><img src="img/python.png"></img></button></li>
+					</ul>
+			</div>
+			<div class="col-md-5">
+				<h3 class="resume-header">Skills</h3>
+			</div>
+		</div>
+	</div>
+</div>
 </div>
 
 <div id="Portfolio" class="section bckcolor1">
 <h1 class="wow slideInUp">Portfolio</h1>
+<div class="subtle-section-text wow slideInUp">This is what I do.</div>
     <div id="portfolioTitles" class="wow slideInUp">
     	<ol class="breadcrumb">
 	    <li><button id="discGolf" class="apiCat"><p id="discGolfH">Disc Golf Scorecard</p></button></li> 
@@ -146,6 +225,14 @@
 		          <h3>Technologies</h3>
 		          <p>
 		          	<img src="img/php.png" class="tech-img"></img><img src="img/python.png" class="tech-img"></img><img src="img/html.png" class="tech-img"></img><img src="img/css.png" class="tech-img"></img><img src="img/javascript.png" class="tech-img"></img>
+		          	<!--<ul class="horizlist">
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="PHP"><img src="img/php.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="Python"><img src="img/python.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="HTML"><img src="img/html.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="CSS"><img src="img/css.png"></img></button></li>
+						<li><button type="button" data-toggle="tooltip" data-placement="top" title="Javascript"><img src="img/javascript.png"></img></button></li>
+						</ul>
+					-->
 		          </p>
 		          <h3>View It</h3>
 		          	<a href="http://www.ghproject.tk">
@@ -169,17 +256,23 @@
 
 <div id="Contact" class="section bckcolor2">
 <h1 class="wow slideInUp">Contact</h1>
-<div class="subtle-section-text wow slideInUp">Let's get in touch!</div>
+<div class="subtle-section-text wow slideInUp">Let's get in touch.</div>
 <br>
 <br>
-<div style="width:50%" class="center">
+<div style="width:55%" class="center">
 	<div class="wow slideInUp">
 				<i class="fa fa-phone-square fa-4x contact_icon"></i>
 				<div class="contact_text">[720]-363-1281</div>
 	</div>
 	<div class="wow slideInUp">
+				<a href="mailto:Matt.Bubernak@gmail.com">
 				<i class="fa fa-envelope-square fa-4x contact_icon"></i>
-				<div class="contact_text">Matt.Bubernak@Gmail.com</div>
+				<div class="contact_text">Matt.Bubernak@Gmail.com<a></div>
+	</div>
+	<div class="wow slideInUp">
+				<a href="linkedin.com/in/MattBubernak">
+				<i class="fa fa-linkedin-square fa-4x contact_icon"></i>
+				<div class="contact_text"> linkedin.com/in/MattBubernak<a></div>
 	</div>
 </div>
 </div>
