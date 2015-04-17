@@ -25,14 +25,13 @@ header {
 #header-title {
 	/*border-top: thin solid rgba(255,255,255,0.25);
     border-bottom: thin solid rgba(255,255,255,0.25);*/
-    font-size: 14rem;
+    font-size: 10rem;
 	font-weight: bold;
     text-shadow: 7px 7px 15px #333;	
     color:white;
     width:70%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 400px;
     height:50vh;
     line-height:50vh;
     vertical-align:middle;
@@ -100,6 +99,7 @@ h1 {
 
 .about-me-text {
 	height:170px;
+	margin-bottom: 15px;
 }
 .about-me-face {
 	margin-right: auto;
