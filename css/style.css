@@ -42,8 +42,12 @@ header {
 }
 /* increase padding for mobile device or smlal screen */
 @media screen and (max-width: 768px) {
-    body { padding-top: 260px; }
-	#header-title {
+    header 
+    {
+    	height:70vh;
+    }
+	#header-title 
+	{
     	font-size: 6rem;
     }
 
