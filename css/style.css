@@ -40,22 +40,7 @@ header {
     /*line-height:50vh;
     vertical-align:middle;*/
 }
-/* increase padding for mobile device or smlal screen */
-@media screen and (max-width: 768px) {
-    header 
-    {
-    	height:70vh;
-    }
-    h1
-    {
-    	font-size:5rem;
-    }
-	#header-title 
-	{
-    	font-size: 6rem;
-    }
 
-}
 #header-sub-text
 {
     font-size: 5rem;
@@ -308,4 +293,21 @@ border-radius: 0px;
 #skill-list ul img{
         display:inline;
 		width:70px;
+}
+
+/* increase padding for mobile device or smlal screen */
+@media screen and (max-width: 768px) {
+    header 
+    {
+    	height:70vh;
+    }
+    h1
+    {
+    	font-size:5rem;
+    }
+	#header-title 
+	{
+    	font-size: 6rem;
+    }
+
 }
