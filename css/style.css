@@ -36,7 +36,7 @@ header {
     width:70%;
     margin-left: auto;
     margin-right: auto;
-    height:50vh;
+    /*height:50vh;*/
     /*line-height:50vh;
     vertical-align:middle;*/
 }
@@ -205,6 +205,7 @@ button {
      cursor: pointer;
      outline-color: transparent;
 }
+
 
 .back-to-top {
 background: none;

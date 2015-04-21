@@ -11,7 +11,7 @@ $(document).ready(function () {
 		    var $target = $(target);
 
 		    $('html, body').stop().animate({
-		        'scrollTop': $target.offset().top
+		        'scrollTop': $target.offset().top-50
 		    }, 900, 'swing', function () {
 		        window.location.hash = target;
 		    });
@@ -40,10 +40,93 @@ $(document).ready(function () {
     jQuery(window).scroll(function() {
         if (jQuery(this).scrollTop() > offset) {
             jQuery('.back-to-top').fadeIn(duration);
+            jQuery('#menubar').fadeIn(duration);
         } else {
             jQuery('.back-to-top').fadeOut(duration);
+            jQuery('#menubar').fadeOut(duration);
         }
     });
 
+
+    var waypointAbout = new Waypoint({
+      element: document.getElementById('About'),
+      handler: function() {
+        jQuery('#navbar-about').addClass("active").show();
+        jQuery('#navbar-resume').removeClass("active").show();
+        jQuery('#navbar-portfolio').removeClass("active").show();
+        jQuery('#navbar-contact').removeClass("active").show();
+      },
+      offset:100
+    })
+    var waypointAbout = new Waypoint({
+      element: document.getElementById('About'),
+      handler: function() {
+        jQuery('#navbar-about').addClass("active").show();
+        jQuery('#navbar-resume').removeClass("active").show();
+        jQuery('#navbar-portfolio').removeClass("active").show();
+        jQuery('#navbar-contact').removeClass("active").show();
+      },
+      offset:-100
+    })
+    var waypointAbout = new Waypoint({
+      element: document.getElementById('Resume'),
+      handler: function() {
+        jQuery('#navbar-about').removeClass("active").show();
+        jQuery('#navbar-resume').addClass("active").show();
+        jQuery('#navbar-portfolio').removeClass("active").show();
+        jQuery('#navbar-contact').removeClass("active").show();
+      },
+      offset:100
+    })
+    var waypointAbout = new Waypoint({
+      element: document.getElementById('Resume'),
+      handler: function() {
+        jQuery('#navbar-about').removeClass("active").show();
+        jQuery('#navbar-resume').addClass("active").show();
+        jQuery('#navbar-portfolio').removeClass("active").show();
+        jQuery('#navbar-contact').removeClass("active").show();
+      },
+      offset:-100
+    })
+    var waypointAbout = new Waypoint({
+      element: document.getElementById('Portfolio'),
+      handler: function() {
+        jQuery('#navbar-about').removeClass("active").show();
+        jQuery('#navbar-resume').removeClass("active").show();
+        jQuery('#navbar-portfolio').addClass("active").show();
+        jQuery('#navbar-contact').removeClass("active").show();
+      },
+      offset:100
+    })
+    var waypointAbout = new Waypoint({
+      element: document.getElementById('Portfolio'),
+      handler: function() {
+        jQuery('#navbar-about').removeClass("active").show();
+        jQuery('#navbar-resume').removeClass("active").show();
+        jQuery('#navbar-portfolio').addClass("active").show();
+        jQuery('#navbar-contact').removeClass("active").show();
+      },
+      offset:-100
+    })
+    var waypointAbout = new Waypoint({
+      element: document.getElementById('Contact'),
+      handler: function() {
+        jQuery('#navbar-about').removeClass("active").show();
+        jQuery('#navbar-resume').removeClass("active").show();
+        jQuery('#navbar-portfolio').removeClass("active").show();
+        jQuery('#navbar-contact').addClass("active").show();
+      },
+      offset:100
+    })
+    var waypointAbout = new Waypoint({
+      element: document.getElementById('Contact'),
+      handler: function() {
+        jQuery('#navbar-about').removeClass("active").show();
+        jQuery('#navbar-resume').removeClass("active").show();
+        jQuery('#navbar-portfolio').removeClass("active").show();
+        jQuery('#navbar-contact').addClass("active").show();
+      },
+      offset:-100
+    })
 
 });
