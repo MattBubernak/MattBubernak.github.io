@@ -141,7 +141,8 @@ h2 {
 }
 h3 {
 	font-family: 'Roboto Condensed', sans-serif;
-	 color:#22313F;
+	color:#22313F;
+	font-weight: bold;
 }
 .center {
 	margin-right: auto;
@@ -190,11 +191,15 @@ i {
 }
 
 p {
-	text-indent: 30px;
+ 	font-family: 'Open Sans', sans-serif;
 	color:white;
 	margin-top: 0px;
 	margin-bottom:0px;
 	font-size: 1.8rem;
+}
+
+.indent {
+	text-indent: 30px;
 }
 
 #portfolioContent {
