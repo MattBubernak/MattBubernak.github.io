@@ -73,6 +73,12 @@ header {
 
 }
 
+.header-icons a
+{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
 #header-nav a:hover {
 	opacity: 1;
 	transition: opacity 400ms;
@@ -277,7 +283,8 @@ border-radius: 0px;
 .horizlist{
 	padding-left: 0px;
 	list-style:none;
-	text-align:center;      
+	text-align:center;    
+	display:inline;  
 }
 #skill-list ul li{
     padding-right:6px;
