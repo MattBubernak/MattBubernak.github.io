@@ -176,6 +176,10 @@ i {
 	color:white;
 }
 
+.icon_inline {
+	margin-right: 7px;
+}
+
 .lightWhiteFade {
 	opacity: .75;
 }
@@ -186,6 +190,7 @@ i {
 }
 
 p {
+	text-indent: 30px;
 	color:white;
 	margin-top: 0px;
 	margin-bottom:0px;
