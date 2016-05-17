@@ -336,3 +336,19 @@ border-radius: 0px;
 	}
 
 }
+
+.row {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-text {
+ 	font-family: 'Open Sans', sans-serif;
+	color:white;
+	text-indent: 30pt;
+	margin-top: 0px;
+	margin-bottom:0px;
+	font-size: 2.2rem;
+	opacity: .8;
+}

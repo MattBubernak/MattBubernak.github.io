@@ -19,10 +19,10 @@ $(document).ready(function () {
 
 
 	// Hide all project tabs except for default
-    var cur_tab = "tweetingPlants";
+    var cur_tab = "cityTrendz";
     $(".apiTex").hide();
     document.getElementById(cur_tab + "H").style.opacity=1;
-    $("#tweetingPlantsContent").show();
+    $("#cityTrendzContent").show();
 
     // Change visibility to clicked link.
     $(".apiCat").click(function () {
