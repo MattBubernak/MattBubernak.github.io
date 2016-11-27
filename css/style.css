@@ -352,3 +352,10 @@ border-radius: 0px;
 	font-size: 2.2rem;
 	opacity: .8;
 }
+
+.btn-default {
+	background-color:transparent;
+}
+.btn-default:hover {
+	background-color:transparent;
+}
