@@ -140,6 +140,9 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	width:100%; 
+	max-width:300px;
+	height:100%
 }
 h2 {
 	text-align: center;
@@ -322,29 +325,6 @@ border-radius: 0px;
 		width:140px;
 }
 
-/* increase padding for mobile device or smlal screen */
-@media screen and (max-width: 768px) {
-    header 
-    {
-    	height:70vh;
-    }
-    h1
-    {
-    	font-size:5rem;
-    }
-	#header-title 
-	{
-    	font-size: 6rem;
-    }
-	#header-nav a {
-	font-size: 1.7rem;
-	}
-
-	.contact_text {
-		font-size: 3rem;
-	}
-
-}
 
 .row {
 	width: 90%;
@@ -391,4 +371,54 @@ li:hover i {
 	background-color: white;
 	fill:#27ae60;
 	color:#27ae60;
+}
+
+
+
+/* increase padding for mobile device or smlal screen */
+@media screen and (max-width: 768px) {
+    header 
+    {
+    	height:70vh;
+    }
+    h1
+    {
+    	font-size:5rem;
+    }
+	#header-title 
+	{
+    	font-size: 6rem;
+    }
+	#header-nav a {
+		font-size: 1.7rem;
+	}
+	.contact_icon {
+		font-size: 3rem;
+	}
+	.contact_text {
+		font-size: 2rem;
+	}
+	.about-me-face {
+		width:50%;
+		margin: auto;
+		display:block;
+	}
+
+	p {
+	 font-size: 1.5rem;	
+	}
+
+	.about-text {
+		font-size: 1.5rem;
+	}
+
+	.portfolio-link {
+		font-size: 1.5rem !important;
+	}
+
+	.resume-pic {
+		width: 0px;
+		height: 0px;
+	}
+
 }
