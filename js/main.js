@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip()
-    
+
 	// Activates wow.js
 	new WOW().init();
 
@@ -19,10 +19,10 @@ $(document).ready(function () {
 
 
 	// Hide all project tabs except for default
-    var cur_tab = "cityTrendz";
+    var cur_tab = "teaMaster";
     $(".apiTex").hide();
     document.getElementById(cur_tab + "H").style.opacity=1;
-    $("#cityTrendzContent").show();
+    $("#teaMasterContent").show();
 
     // Change visibility to clicked link.
     $(".apiCat").click(function () {
@@ -33,7 +33,7 @@ $(document).ready(function () {
         $("#" + cur_tab + "Content").delay(300).fadeIn(300);
     });
 
-    // Handle the back to top arrow. 
+    // Handle the back to top arrow.
     var offset = 250;
     var duration = 300;
     jQuery('.back-to-top').fadeOut(0);
